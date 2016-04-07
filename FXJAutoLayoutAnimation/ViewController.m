@@ -34,6 +34,7 @@
     
         [UIView animateWithDuration:0.25 animations:^{
             self.viewHightC.constant = 200;
+
             [self.view layoutIfNeeded];
         } completion:^(BOOL finished) {
             
