@@ -9,7 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *viewHightC;
+@property (nonatomic, assign) BOOL isOpen;
 @end
 
 @implementation ViewController
@@ -18,6 +19,28 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"测试");
+}
+- (IBAction)btnClick:(id)sender {
+    self.isOpen = !_isOpen;
+    
+    if (!_isOpen) {
+        [UIView animateWithDuration:0.25 animations:^{
+            self.viewHightC.constant = 64;
+            [self.view layoutIfNeeded];
+        } completion:^(BOOL finished) {
+            
+        }];
+    }else{
+    
+        [UIView animateWithDuration:0.25 animations:^{
+            self.viewHightC.constant = 200;
+            [self.view layoutIfNeeded];
+        } completion:^(BOOL finished) {
+            
+        }];
+    }
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
