@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface newFiled : UIView
-
+@property (nonatomic, assign) int                  WWWW;
 @end
