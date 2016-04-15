@@ -10,4 +10,6 @@
 
 @interface fxjview : UIView
 @property (nonatomic, copy) NSString                *sssss;
+@property (nonatomic, assign) NSInteger                  hahah;
+
 @end
