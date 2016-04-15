@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22294F491CC0C06A00A30A06 /* newFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 22294F481CC0C06A00A30A06 /* newFiled.m */; };
 		2246BBC41CB68D7C001D24B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2246BBC31CB68D7C001D24B1 /* main.m */; };
 		2246BBC71CB68D7C001D24B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2246BBC61CB68D7C001D24B1 /* AppDelegate.m */; };
 		2246BBCA1CB68D7C001D24B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2246BBC91CB68D7C001D24B1 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22294F471CC0C06A00A30A06 /* newFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newFiled.h; sourceTree = "<group>"; };
+		22294F481CC0C06A00A30A06 /* newFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newFiled.m; sourceTree = "<group>"; };
 		2246BBBF1CB68D7C001D24B1 /* FXJAutoLayoutAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXJAutoLayoutAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2246BBC31CB68D7C001D24B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2246BBC51CB68D7C001D24B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				2246BBC61CB68D7C001D24B1 /* AppDelegate.m */,
 				2246BBC81CB68D7C001D24B1 /* ViewController.h */,
 				2246BBC91CB68D7C001D24B1 /* ViewController.m */,
+				22294F471CC0C06A00A30A06 /* newFiled.h */,
+				22294F481CC0C06A00A30A06 /* newFiled.m */,
 				2246BBCB1CB68D7C001D24B1 /* Main.storyboard */,
 				2246BBCE1CB68D7C001D24B1 /* Assets.xcassets */,
 				2246BBD01CB68D7C001D24B1 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				2246BBCA1CB68D7C001D24B1 /* ViewController.m in Sources */,
 				2246BBC71CB68D7C001D24B1 /* AppDelegate.m in Sources */,
 				2246BBC41CB68D7C001D24B1 /* main.m in Sources */,
+				22294F491CC0C06A00A30A06 /* newFiled.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				2246BBEE1CB68D7C001D24B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2246BBEF1CB68D7C001D24B1 /* Build configuration list for PBXNativeTarget "FXJAutoLayoutAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				2246BBF11CB68D7C001D24B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2246BBF21CB68D7C001D24B1 /* Build configuration list for PBXNativeTarget "FXJAutoLayoutAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				2246BBF41CB68D7C001D24B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
