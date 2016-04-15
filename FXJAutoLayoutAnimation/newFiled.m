@@ -17,5 +17,5 @@
     // Drawing code
 }
 */
-- (void)hehhehe{}
+- (void)hehhehemtfang{}
 @end
