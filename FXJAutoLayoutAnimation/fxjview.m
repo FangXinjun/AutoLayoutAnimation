@@ -17,5 +17,9 @@
     // Drawing code
 }
 */
+- (instancetype)initWithFrame:(CGRect)frame{
+
+    return self;
+}
 
 @end
