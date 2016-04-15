@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface fxjview : UIView
-
+@property (nonatomic, copy) NSString                *sssss;
 @end
