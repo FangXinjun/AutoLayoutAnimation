@@ -19,6 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"测试");
+    NSLog(@"老方 消防");
 }
 - (IBAction)btnClick:(id)sender {
     self.isOpen = !_isOpen;
