@@ -50,6 +50,51 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    /*
+     ng tree.
+     Use '--' to separate paths from revisions, like this:
+     'git <command> [<revision>...] -- [<file>...]'
+     myapplepro01@fangxinjunMacBook-Pro AutoLayoutAnimation$ git push
+     Counting objects: 4, done.
+     Delta compression using up to 8 threads.
+     Compressing objects: 100% (4/4), done.
+     Writing objects: 100% (4/4), 505 bytes | 0 bytes/s, done.
+     Total 4 (delta 2), reused 0 (delta 0)
+     To https://github.com/FangXinjun/AutoLayoutAnimation.git
+     92dd9ce..5562b46  DevMy -> DevMy
+     myapplepro01@fangxinjunMacBook-Pro AutoLayoutAnimation$ git reset --hard origin_head
+     fatal: ambiguous argument 'origin_head': unknown revision or path not in the working tree.
+     Use '--' to separate paths from revisions, like this:
+     'git <command> [<revision>...] -- [<file>...]'
+     myapplepro01@fangxinjunMacBook-Pro AutoLayoutAnimation$ git branch -a
+     * DevMy
+     fxjfxmyj
+     master
+     mytest
+     remotes/origin/DevMy
+     remotes/origin/HEAD -> origin/master
+     remotes/origin/fangxinjun
+     remotes/origin/fxjfxj
+     remotes/origin/master
+     remotes/origin/mytest
+     myapplepro01@fangxinjunMacBook-Pro AutoLayoutAnimation$ git push origin --delete fxjfxj
+     To https://github.com/FangXinjun/AutoLayoutAnimation.git
+     - [deleted]         fxjfxj
+     myapplepro01@fangxinjunMacBook-Pro AutoLayoutAnimation$ git branch -a
+     * DevMy
+     fxjfxmyj
+     master
+     mytest
+     remotes/origin/DevMy
+     remotes/origin/HEAD -> origin/master
+     remotes/origin/fangxinjun
+     remotes/origin/master
+     remotes/origin/mytest
+     myapplepro01@fangxinjunMacBook-Pro AutoLayoutAnimation$
+     
+     */
+    
 }
 
 @end
