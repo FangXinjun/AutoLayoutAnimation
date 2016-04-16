@@ -21,6 +21,7 @@
     NSLog(@"测试");
     NSLog(@"老方 消防");
     NSLog(@"test老方 消防");
+    NSLog(@"eeeeeedevtest老方 消防");
 }
 - (IBAction)btnClick:(id)sender {
     self.isOpen = !_isOpen;
