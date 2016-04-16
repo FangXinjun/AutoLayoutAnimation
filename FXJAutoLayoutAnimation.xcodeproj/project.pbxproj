@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		22294F491CC0C06A00A30A06 /* newFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 22294F481CC0C06A00A30A06 /* newFiled.m */; };
 		22294F4C1CC0C50600A30A06 /* fxjview.m in Sources */ = {isa = PBXBuildFile; fileRef = 22294F4B1CC0C50600A30A06 /* fxjview.m */; };
+		22294F4F1CC21C7300A30A06 /* onefile.m in Sources */ = {isa = PBXBuildFile; fileRef = 22294F4E1CC21C7300A30A06 /* onefile.m */; };
 		2246BBC41CB68D7C001D24B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2246BBC31CB68D7C001D24B1 /* main.m */; };
 		2246BBC71CB68D7C001D24B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2246BBC61CB68D7C001D24B1 /* AppDelegate.m */; };
 		2246BBCA1CB68D7C001D24B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2246BBC91CB68D7C001D24B1 /* ViewController.m */; };
@@ -41,6 +42,8 @@
 		22294F481CC0C06A00A30A06 /* newFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newFiled.m; sourceTree = "<group>"; };
 		22294F4A1CC0C50600A30A06 /* fxjview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fxjview.h; sourceTree = "<group>"; };
 		22294F4B1CC0C50600A30A06 /* fxjview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fxjview.m; sourceTree = "<group>"; };
+		22294F4D1CC21C7300A30A06 /* onefile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onefile.h; sourceTree = "<group>"; };
+		22294F4E1CC21C7300A30A06 /* onefile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = onefile.m; sourceTree = "<group>"; };
 		2246BBBF1CB68D7C001D24B1 /* FXJAutoLayoutAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXJAutoLayoutAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2246BBC31CB68D7C001D24B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2246BBC51CB68D7C001D24B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				2246BBC91CB68D7C001D24B1 /* ViewController.m */,
 				22294F4A1CC0C50600A30A06 /* fxjview.h */,
 				22294F4B1CC0C50600A30A06 /* fxjview.m */,
+				22294F4D1CC21C7300A30A06 /* onefile.h */,
+				22294F4E1CC21C7300A30A06 /* onefile.m */,
 				22294F471CC0C06A00A30A06 /* newFiled.h */,
 				22294F481CC0C06A00A30A06 /* newFiled.m */,
 				2246BBCB1CB68D7C001D24B1 /* Main.storyboard */,
@@ -284,6 +289,7 @@
 				2246BBC71CB68D7C001D24B1 /* AppDelegate.m in Sources */,
 				2246BBC41CB68D7C001D24B1 /* main.m in Sources */,
 				22294F4C1CC0C50600A30A06 /* fxjview.m in Sources */,
+				22294F4F1CC21C7300A30A06 /* onefile.m in Sources */,
 				22294F491CC0C06A00A30A06 /* newFiled.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
